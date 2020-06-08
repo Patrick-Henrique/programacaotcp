@@ -28,7 +28,7 @@ int main(int argc, char *argv[]){
     printf("Conectado.\n");
 
     //envia dados
-    message = "Olá Mundo!";
+    message = "Olá, Mundo!";
     if(send(socket_desc, message, strlen(message), 0) <0){
         printf("Erro ao enviar\n");
         return 1;
