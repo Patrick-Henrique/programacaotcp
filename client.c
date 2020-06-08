@@ -43,6 +43,7 @@ int main(int argc, char *argv[]){
     printf("Resposta recebida.\n");
     printf("%s\n", server_reply);
 
+    //encerra a conexão
     close(socket_desc);
 
     return 0;
